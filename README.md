@@ -5,8 +5,11 @@ A CLI tool written in Bash that automates connectivity checks and basic DNS serv
 ## 🚀 Features
 - Automatic detection of the active network interface, IP address (with CIDR mask), and gateway.
 - Sequential diagnostics:
+  
     -IP connectivity test via ICMP (`8.8.8.8`).
+  
     -Domain name resolution test via DNS (`google.com`).
+  
     -DNS record extraction via `dig`.
 
 ## 🛠️ Prerequisites
